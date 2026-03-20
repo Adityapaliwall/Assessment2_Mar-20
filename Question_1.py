@@ -20,7 +20,7 @@ pts = driver.find_element(By.XPATH, '(//p[. = "Jaipur Pink Panthers"]/../../../.
 print(f"Matches Played = {mpl.text}")
 print(f"Won = {won.text}")
 print(f"Lost = {lost.text}")
-print(f"Score Diffrence = {sc_di.text}")
+print(f"Score Difference = {sc_di.text}")
 print(f" Points = {pts.text}")
 
 driver.quit()
